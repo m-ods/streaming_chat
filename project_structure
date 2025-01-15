@@ -1,9 +1,0 @@
-websocket-stt-chat/
-├── static/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── main.py
-├── requirements.txt
-├── docker-compose.yml
-└── Dockerfile 
