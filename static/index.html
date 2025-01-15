@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Speech Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+</head>
+<body>
+    <div id="login-container">
+        <h2>Join Chat Room</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button id="join-btn">Join</button>
+    </div>
+
+    <div id="chat-container" style="display: none;">
+        <div id="messages"></div>
+        <div id="controls">
+            <button id="start-btn">Start Speaking</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', path='script.js') }}" defer></script>
+</body>
+</html> 
