@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize AssemblyAI client
-aai.settings.api_key = "523d85f64d974fc0a84bdb53c8a8615d"
+aai.settings.api_key = "YOUR-API-KEY"
 
 class ChatSession:
     def __init__(self, websocket: WebSocket, username: str, chat_room: 'ChatRoom'):
